@@ -8,7 +8,7 @@ function Form() {
     <div className="flex flex-col justify-around mt-6 md:flex-row">
       <div>
         <label htmlFor="city"> Şehir Seç </label>
-        <select name="city" id="" className="text-black w-10 h-full mb-2 md:mb-0 ml-2 px-2 py-2 w-48 rounded-xl">
+        <select name="city" id="" className="text-black h-full mb-2 md:mb-0 ml-2 px-2 py-2 w-48 rounded-xl">
           {cities.map((city) => (
             <option key={city.id} value={city.name} selected={city.name === "Çanakkale" ? true : false}>
               {city.name}
