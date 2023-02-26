@@ -1,7 +1,10 @@
 import React from "react";
+import { useWeather } from "../context/WeatherContext";
 import Form from "./Form";
 
 function Header() {
+  const { selectedCity } = useWeather();
+
   return (
     <div className="row">
       <div className="dark:bg-gray-800 dark:text-gray-100">
@@ -12,7 +15,7 @@ function Header() {
           </div>
           <Form />
           <div className="flex justify-center mt-10">
-            <h1 className=" text-6xl">İstanbul</h1>
+            <h1 className=" text-6xl">{selectedCity.toUpperCase()}</h1>
           </div>
         </div>
       </div>
