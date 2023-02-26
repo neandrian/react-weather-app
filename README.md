@@ -1,13 +1,15 @@
 # Getting Started with React Weather App
 
-- [ ] Create .env file in project root folder
-- [ ] Add this line in .env file:
+- Create .env file in project root folder
+- Add this line in .env file:
 
   `REACT_APP_API_ENDPOINT=https://api.openweathermap.org/data/2.5/forecast`
 
-- [ ] And Add this line with your openweathermap api key :
+- And Add this line with your openweathermap api key :
 
   `REACT_APP_API_KEY={your-openweathermap-api-key}`
+
+- Project Netlify Link : [https://neandrians-weather.netlify.app/](https://neandrians-weather.netlify.app/)
 
 # Getting Started with Create React App
 
